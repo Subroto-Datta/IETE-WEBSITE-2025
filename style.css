@@ -1,10 +1,10 @@
 /*
 =====================================================================
-IMPORTANT: XIROD FONT SETUP
+IMPORTANT: Xirod FONT SETUP
 =====================================================================
 1. Download the Xirod font.
 2. Convert it to a web-friendly format like .woff2.
-3. Place the `xirod.woff2` file into your `/assets/fonts/` directory.
+3. Place the `Xirod.woff2` file into your `/assets/fonts/` directory.
 4. The @font-face rule below is now active and will load the font.
    The font will NOT render until you complete the steps above.
 =====================================================================
@@ -12,7 +12,7 @@ IMPORTANT: XIROD FONT SETUP
 
 @font-face {
     font-family: 'Xirod';
-    src: url('assets/fonts/xirod.woff2') format('woff2');
+    src: url('./assets/fonts/Xirod.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
